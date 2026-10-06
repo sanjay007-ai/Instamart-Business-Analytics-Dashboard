@@ -57,10 +57,6 @@ The **Executive Overview** page provides a high-level management view of overall
 
 This page provides a quick management view of sales, profitability, customers, orders, products, and geographic performance.
 
-### 📸 Dashboard Screenshot
-
-![Executive Overview](Screenshots/01-Executive-Overview.png)
-
 ---
 
 ## 2️⃣ Regional & Geographic Analysis
@@ -88,10 +84,6 @@ The **Regional & Geographic Analysis** page focuses on sales and profitability a
 ### Key Insight
 
 The **North region** recorded approximately **₹509K in sales and ₹136K in profit**, while the **Central region** generated approximately **₹183K in sales**.
-
-### 📸 Dashboard Screenshot
-
-![Regional & Geographic Analysis](Screenshots/02-Regional-Geographic-Analysis.png)
 
 ---
 
@@ -122,9 +114,6 @@ The **Sales & Revenue Analysis** page focuses on revenue, discounts, costs, targ
 
 This page helps understand how discounts and costs affect net revenue and profitability.
 
-### 📸 Dashboard Screenshot
-
-![Sales & Revenue Analysis](Screenshots/03-Sales-Revenue-Analysis.png)
 
 ---
 
@@ -152,10 +141,6 @@ The **Customer Analytics** page provides an overview of customer activity, engag
 ### Key Insight
 
 High-value customers contributed approximately **₹715K**, representing around **36% of total revenue**.
-
-### 📸 Dashboard Screenshot
-
-![Customer Analytics](Screenshots/04-Customer-Analytics.png)
 
 ---
 
@@ -185,10 +170,6 @@ The **Customer Performance Details** page provides detailed customer-level perfo
 
 This page helps identify the customers who contribute most to overall business performance.
 
-### 📸 Dashboard Screenshot
-
-![Customer Performance Details](Screenshots/05-Customer-Performance.png)
-
 ---
 
 ## 6️⃣ Product & Category Analysis
@@ -215,10 +196,6 @@ The **Product & Category Analysis** page evaluates product and category-level sa
 **Baby Care** recorded the highest category-level profit margin at approximately **27.31%**.
 
 **Personal Care** generated approximately **₹83K** in category-level profit.
-
-### 📸 Dashboard Screenshot
-
-![Product & Category Analysis](Screenshots/06-Product-Category-Analysis.png)
 
 ---
 
@@ -247,10 +224,6 @@ The **Product Performance Details** page provides detailed product-level perform
 - Low-Performing Products
 
 This page provides a detailed view of individual product performance and identifies products contributing most to sales and profitability.
-
-### 📸 Dashboard Screenshot
-
-![Product Performance Details](Screenshots/07-Product-Performance.png)
 
 ---
 
@@ -281,10 +254,6 @@ The **Operations & Delivery Analysis** page focuses on order fulfillment, delive
 
 **UPI** was the most frequently used payment method with approximately **2,367 orders**.
 
-### 📸 Dashboard Screenshot
-
-![Operations & Delivery Analysis](Screenshots/08-Operations-Delivery.png)
-
 ---
 
 ## 9️⃣ Operations Performance Details
@@ -305,10 +274,6 @@ The **Operations Performance Details** page provides detailed operational analys
 **Madhya Pradesh** recorded a cancellation rate of approximately **6.98%**, higher than the overall cancellation rate of **4.20%**.
 
 This highlights a potential area for operational investigation and improvement.
-
-### 📸 Dashboard Screenshot
-
-![Operations Performance Details](Screenshots/09-Operations-Performance.png)
 
 ---
 
@@ -336,10 +301,6 @@ The **Profitability Analysis** page focuses on the relationship between sales, c
 - Profitability Comparison
 
 This page helps identify where revenue is translating into stronger profitability and where costs or discounts may reduce margins.
-
-### 📸 Dashboard Screenshot
-
-![Profitability Analysis](Screenshots/10-Profitability-Analysis.png)
 
 ---
 
@@ -390,10 +351,6 @@ The **Executive Business Insights** page summarizes the most important findings 
 - Target Achievement — **130.63%**
 
 The business exceeded the defined sales target, indicating strong overall revenue performance.
-
-### 📸 Dashboard Screenshot
-
-![Executive Business Insights](Screenshots/11-Executive-Business-Insights.png)
 
 ---
 
