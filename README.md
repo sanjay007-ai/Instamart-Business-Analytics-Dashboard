@@ -1,619 +1,604 @@
-# 📊 Instamart Business Analytics Dashboard — Power BI
+# 🛒 Instamart Business Analytics Dashboard — Power BI
 
-An interactive **11-page Power BI Business Analytics Dashboard** designed to analyze sales, revenue, profit, customers, products, regional performance, discounts, delivery operations, targets, and overall business performance across India.
+An interactive **11-page Power BI Business Analytics Dashboard** designed to analyze sales, revenue, profitability, customers, products, regional performance, operations, delivery performance, and overall business insights for a quick-commerce business.
 
-This project demonstrates an end-to-end **Data Analyst / Business Intelligence workflow**, from data preparation and transformation to data modeling, DAX analysis, interactive visualization, KPI tracking, and business insights.
-
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Tool](https://img.shields.io/badge/Tool-Power%20BI-yellow)
-![Level](https://img.shields.io/badge/Level-Portfolio%20Project-blue)
+This project demonstrates an end-to-end **Data Analyst / Business Intelligence workflow**, from data preparation and transformation to data modeling, DAX calculations, interactive visualization, KPI analysis, and business insight generation.
 
 ---
 
-# 📌 Headline Numbers
+## 📊 Project Overview
 
-| **Metric** | **Value** |
+| Metric | Value |
 |---|---:|
-| **Net Sales** | ₹1.959M |
-| **Total Profit** | ₹518.29K |
-| **Profit Margin** | 26.45% |
-| **Total Orders** | 5,000 |
-| **Total Customers** | 1,800 |
-| **Average Order Value** | ₹391.90 |
-| **Sales Target** | ₹1.50M |
-| **Target Achievement** | 130.63% |
-| **Delivered Orders** | 94.34% |
-| **Cancelled Orders** | 4.20% |
-| **Returned Orders** | 1.46% |
-| **Average Delivery Time** | 24.66 min |
-| **Average Rating** | 4.10 |
+| 🧾 Total Orders | **5,000** |
+| 👥 Total Customers | **1,800** |
+| 🛍️ Products | **44** |
+| 📦 Categories | **8** |
+| 🌎 Regions | **5** |
+| 🇮🇳 States | **20** |
+| 💰 Net Sales | **₹1.96M** |
+| 💵 Total Profit | **₹518.29K** |
+| 📈 Profit Margin | **26.45%** |
+| 🎯 Target Achievement | **130.63%** |
+| 🧮 Average Order Value | **₹391.90** |
+| 🚚 Delivered Orders | **94.34%** |
+| ❌ Cancelled Orders | **4.20%** |
+| ↩️ Returned Orders | **1.46%** |
+| ⏱️ Avg. Delivery Time | **24.66 min** |
+| ⭐ Avg. Rating | **4.10** |
 
 ---
 
-# 🗂️ Dashboard Overview
+# 📸 Dashboard Pages
 
 ## 1️⃣ Executive Overview
 
-The **Executive Overview** page provides a high-level management view of overall business performance.
+![Executive Overview](screenshots/01-Executive-Overview.png)
 
-### Key Metrics
+The Executive Overview provides a high-level view of overall business performance using key sales, profitability, customer, order, and operational KPIs.
 
-- Net Sales — ₹1.959M
-- Total Profit — ₹518.29K
-- Profit Margin — 26.45%
-- Total Orders — 5,000
-- Total Customers — 1,800
-- Average Order Value — ₹391.90
-
-### Analysis
-
-- Monthly Sales & Profit Trend
-- Sales by Region
-- Sales by Category
-- Top 10 Products
+### Key Areas
+- Net Sales
+- Total Profit
+- Profit Margin
+- Orders
+- Customers
+- Average Order Value
+- Sales Trend
+- Profit Performance
 - Order Status
-- State-wise Sales
-- Executive KPI Summary
-
-This page provides a quick management view of sales, profitability, customers, orders, products, and geographic performance.
+- Target Achievement
 
 ---
 
 ## 2️⃣ Regional & Geographic Analysis
 
-The **Regional & Geographic Analysis** page focuses on sales and profitability across Indian regions, states, and cities.
+![Regional Geographic Analysis](screenshots/02-Regional-Geographic-Analysis.png)
 
-### Analysis
+Analyzes business performance across regions, states, and cities to identify high-performing and underperforming geographic markets.
 
-- Sales by Region
-- Profit by Region
-- Orders by State
-- Top 10 States
-- India State Map
-- Region → State → City Performance Matrix
-
-### Performance Metrics
-
-- Sales
-- Profit
-- Orders
-- Profit Margin %
-- Contribution %
-- Regional Rank
-
-### Key Insight
-
-The **North region** recorded approximately **₹509K in sales and ₹136K in profit**, while the **Central region** generated approximately **₹183K in sales**.
+### Key Analysis
+- Region-wise Sales
+- State-wise Sales
+- City Performance
+- Regional Profit
+- Sales Contribution
+- Regional Ranking
+- Geographic Performance
 
 ---
 
 ## 3️⃣ Sales & Revenue Analysis
 
-The **Sales & Revenue Analysis** page focuses on revenue, discounts, costs, target performance, and sales variance.
+![Sales Revenue Analysis](screenshots/03-Sales-Revenue-Analysis.png)
 
-### Key Metrics
+Provides detailed analysis of sales and revenue performance across time, regions, categories, and products.
 
+### Key Analysis
 - Gross Sales
-- Total Discount
-- Discount %
-- Total Cost
 - Net Sales
-- Sales Target
-- Sales Revenue %
+- Monthly Sales Trends
+- Sales Contribution
+- Revenue Performance
+- Target Achievement
 - Sales Variance
-
-### Analysis
-
-- Monthly Revenue Performance
-- Gross Sales vs Net Sales
-- Discount Analysis
-- Cost Analysis
-- Target vs Actual Sales
-- Sales Variance
-- Revenue Contribution
-
-This page helps understand how discounts and costs affect net revenue and profitability.
-
+- Category Performance
 
 ---
 
 ## 4️⃣ Customer Analytics
 
-The **Customer Analytics** page provides an overview of customer activity, engagement, repeat behavior, and customer value.
+![Customer Analytics](screenshots/04-Customer-Analytics.png)
 
-### Key Metrics
+Analyzes customer behavior, customer contribution, order patterns, and overall customer performance.
 
-- Total Customers — 1,800
-- Active Customers — 1,686
-- Repeat Customers — 1,397
-- High-Value Customers — 262
-- Customer Revenue Contribution
-
-### Analysis
-
-- Customer Activity
-- Active vs Inactive Customers
-- Repeat Customer Analysis
-- High-Value Customer Analysis
-- Customer Revenue Contribution
+### Key Analysis
+- Total Customers
+- Active Customers
+- Repeat Customers
+- Customer Contribution
+- Order Frequency
 - Customer Segmentation
-
-### Key Insight
-
-High-value customers contributed approximately **₹715K**, representing around **36% of total revenue**.
+- Customer Sales
 
 ---
 
-## 5️⃣ Customer Performance Details
+## 5️⃣ Customer Performance
 
-The **Customer Performance Details** page provides detailed customer-level performance analysis.
+![Customer Performance](screenshots/05-Customer-Performance.png)
 
-### Customer Performance Metrics
+Provides a detailed customer-level performance analysis to identify high-value customers and their contribution to business revenue.
 
-- Customer
-- Orders
-- Sales
-- Profit
-- Average Order Value
-- Rating
-- Customer Contribution %
-- Customer Rank
-
-### Analysis
-
-- Top Customers by Sales
-- High-Profit Customers
-- Repeat Customers
-- High-Value Customers
-- Customer Revenue Contribution
+### Key Analysis
 - Customer Ranking
-
-This page helps identify the customers who contribute most to overall business performance.
+- Customer Sales
+- Customer Profit
+- Order Count
+- Customer Contribution
+- High-Value Customers
+- Repeat Customer Performance
 
 ---
 
 ## 6️⃣ Product & Category Analysis
 
-The **Product & Category Analysis** page evaluates product and category-level sales and profitability.
+![Product Category Analysis](screenshots/06-Product-Category-Analysis.png)
 
-### Analysis
+Analyzes product and category performance to identify top-selling and highly profitable business segments.
 
-- Sales by Category
-- Profit by Category
-- Top Products by Sales
-- Top Products by Profit
-- Product Contribution
-- Category Profitability
-- Product & Category Performance Matrix
-
-### Key Insights
-
-**Diapers** was the top-performing product with approximately:
-
-- Sales — ₹94.5K
-- Profit — ₹26.2K
-
-**Baby Care** recorded the highest category-level profit margin at approximately **27.31%**.
-
-**Personal Care** generated approximately **₹83K** in category-level profit.
+### Key Analysis
+- Product Sales
+- Category Sales
+- Product Profit
+- Category Profit
+- Product Ranking
+- Category Contribution
+- Profit Margin
 
 ---
 
-## 7️⃣ Product Performance Details
+## 7️⃣ Product Performance
 
-The **Product Performance Details** page provides detailed product-level performance analysis.
+![Product Performance](screenshots/07-Product-Performance.png)
 
-### Product Metrics
+Provides detailed product-level performance analysis to understand product contribution and profitability.
 
-- Product
-- Category
-- Sales
-- Profit
-- Profit Margin %
-- Orders
-- Contribution %
-- Product Rank
-
-### Analysis
-
-- Product Sales Ranking
-- Product Profit Ranking
+### Key Analysis
+- Top Products
+- Product Sales
+- Product Profit
+- Product Margin
+- Product Ranking
 - Product Contribution
 - Category Comparison
-- High-Performing Products
-- Low-Performing Products
-
-This page provides a detailed view of individual product performance and identifies products contributing most to sales and profitability.
 
 ---
 
 ## 8️⃣ Operations & Delivery Analysis
 
-The **Operations & Delivery Analysis** page focuses on order fulfillment, delivery performance, ratings, and payment methods.
+![Operations Delivery Analysis](screenshots/08-Operations-Delivery-Analysis.png)
 
-### Key Metrics
+Analyzes order fulfillment and delivery performance to understand operational efficiency.
 
-- Total Orders — 5,000
-- Delivered — 94.34%
-- Cancelled — 4.20%
-- Returned — 1.46%
-- Average Delivery Time — 24.66 min
-- Average Rating — 4.10
-
-### Analysis
-
+### Key Analysis
+- Delivery Time
+- Delivered Orders
+- Cancelled Orders
+- Returned Orders
+- Customer Ratings
 - Order Status
 - Delivery Performance
-- Average Delivery Time
-- Customer Ratings
-- Payment Methods
-- Delivery Performance by Region
-- Operational KPIs
-
-### Key Insight
-
-**UPI** was the most frequently used payment method with approximately **2,367 orders**.
 
 ---
 
-## 9️⃣ Operations Performance Details
+## 9️⃣ Operations Performance
 
-The **Operations Performance Details** page provides detailed operational analysis across states, order statuses, delivery performance, and ratings.
+![Operations Performance](screenshots/09-Operations-Performance.png)
 
-### Analysis
+Provides a deeper analysis of operational performance across regions, states, and business dimensions.
 
-- State-Level Order Performance
-- Order Status by Location
-- Cancellation Analysis
-- Delivery Time Analysis
-- Rating Performance
-- Operational Performance Comparison
-
-### Key Insight
-
-**Madhya Pradesh** recorded a cancellation rate of approximately **6.98%**, higher than the overall cancellation rate of **4.20%**.
-
-This highlights a potential area for operational investigation and improvement.
+### Key Analysis
+- Delivery Performance
+- Cancellation Rate
+- Return Rate
+- Average Delivery Time
+- Regional Operations
+- Operational Comparison
+- Performance Monitoring
 
 ---
 
 ## 🔟 Profitability Analysis
 
-The **Profitability Analysis** page focuses on the relationship between sales, costs, discounts, and profit.
+![Profitability Analysis](screenshots/10-Profitability-Analysis.png)
 
-### Key Metrics
+Focuses on profitability and identifies the major contributors to business profit and margin.
 
-- Net Sales
-- Total Cost
+### Key Analysis
 - Total Profit
-- Profit Margin %
-- Discount %
-- Sales Contribution
-
-### Analysis
-
-- Profit by Region
-- Profit by Category
-- Profit by Product
-- Cost vs Revenue
-- Profit Margin Analysis
-- Discount Impact
-- Profitability Comparison
-
-This page helps identify where revenue is translating into stronger profitability and where costs or discounts may reduce margins.
+- Profit Margin
+- Product Profitability
+- Category Profitability
+- Regional Profitability
+- Cost Analysis
+- Discount Analysis
+- Profit Contribution
 
 ---
 
 ## 1️⃣1️⃣ Executive Business Insights
 
-The **Executive Business Insights** page summarizes the most important findings from the complete dashboard.
+![Executive Business Insights](screenshots/11-Executive-Business-Insights.png)
 
-### 📈 Sales & Revenue
+Summarizes the major business findings and converts analytical results into actionable business insights.
 
-- Net Sales reached **₹1.959M**.
-- Average Order Value was **₹391.90**.
-- Sales performance can be evaluated across regions, categories, products, and monthly trends.
-- Discount levels should be monitored to balance revenue growth and profitability.
+### Key Areas
+- Sales & Revenue
+- Profitability
+- Customer Performance
+- Product Performance
+- Regional Performance
+- Operations & Delivery
+- Business Opportunities
+- Areas for Improvement
 
-### 💰 Profitability
+---
+
+# 📌 Business Questions Answered
+
+This dashboard was designed to answer practical business questions such as:
+
+- How is overall sales performance?
+- How profitable is the business?
+- Which regions generate the highest sales?
+- Which states and cities contribute the most revenue?
+- Which products generate the highest sales?
+- Which categories are most profitable?
+- Who are the highest-value customers?
+- How much revenue comes from repeat customers?
+- What is the overall profit margin?
+- How are discounts and costs affecting profitability?
+- Which regions have operational issues?
+- What percentage of orders are delivered, cancelled, or returned?
+- What is the average delivery time?
+- Which products and categories require attention?
+- What actionable insights can management take from the data?
+
+---
+
+# 📊 Key Business Insights
+
+### 💰 Sales & Revenue
+
+- Net Sales reached approximately **₹1.96M**.
+- Average Order Value is approximately **₹391.90**.
+- Overall target achievement reached **130.63%** against the defined target.
+- Regional and category-level analysis helps identify major revenue contributors.
+
+### 📈 Profitability
 
 - Total Profit reached approximately **₹518.29K**.
-- Overall Profit Margin was **26.45%**.
-- Baby Care recorded the strongest category-level margin at approximately **27.31%**.
-- Personal Care generated approximately **₹83K** in category-level profit.
+- Overall Profit Margin is approximately **26.45%**.
+- Profitability can be evaluated across products, categories, regions, and customers.
+- Discount and cost levels should be monitored to maintain healthy margins.
 
 ### 🌎 Regional Performance
 
-- North was the strongest region with approximately **₹509K sales** and **₹136K profit**.
-- Central generated approximately **₹183K sales**.
-- Regional and state-level performance can be used to identify expansion and improvement opportunities.
+- **North** is the strongest region with approximately **₹509K** in sales and **₹136K** in profit.
+- **Central** is one of the weaker regions with approximately **₹183K** in sales.
+- Regional and state-level comparisons help identify expansion and improvement opportunities.
 
 ### 👥 Customer Performance
 
-- Total Customers — **1,800**
-- Active Customers — **1,686**
-- Repeat Customers — **1,397**
-- High-Value Customers — **262**
-- High-value customers contributed approximately **₹715K**, around **36% of total revenue**.
+- The dataset contains **1,800 customers**.
+- Approximately **1,686 customers are active**.
+- Around **1,397 customers are repeat customers**.
+- High-value customers contribute a significant portion of overall revenue.
+
+### 🛍️ Product Performance
+
+- **Diapers** is among the top-performing products with approximately **₹94.5K** in sales.
+- Diapers generated approximately **₹26.2K** in profit.
+- **Baby Care** records a strong category margin of approximately **27.31%**.
+- Product-level analysis helps identify high-revenue and high-profit products.
 
 ### 🚚 Operations
 
-- **94.34%** of orders were delivered.
-- **4.20%** were cancelled.
-- **1.46%** were returned.
-- Average delivery time was **24.66 minutes**.
-- Average customer rating was **4.10**.
-
-### 🎯 Target Performance
-
-- Sales Target — **₹1.50M**
-- Net Sales — **₹1.959M**
-- Target Achievement — **130.63%**
-
-The business exceeded the defined sales target, indicating strong overall revenue performance.
+- Approximately **94.34%** of orders were delivered.
+- Approximately **4.20%** of orders were cancelled.
+- Approximately **1.46%** of orders were returned.
+- Average delivery time is approximately **24.66 minutes**.
+- Overall average customer rating is approximately **4.10**.
+- Some locations require additional monitoring due to higher cancellation rates.
 
 ---
 
-# 💡 Key Business Questions
+# 🗂️ Dataset Overview
 
-The dashboard was designed to answer important business questions such as:
+The project uses a structured quick-commerce business dataset containing information related to:
 
-- How are sales and profit performing?
-- Is the business achieving its sales target?
-- What is the target achievement percentage?
-- What is the variance between actual sales and target?
-- Which regions generate the highest sales?
-- Which states contribute the most revenue?
-- Which products generate the highest sales?
-- Which products generate the highest profit?
-- Which categories have stronger profit margins?
-- Which customers contribute the most revenue?
-- How many active and repeat customers are there?
-- What percentage of orders are delivered, cancelled, or returned?
-- Which locations have higher cancellation rates?
-- What is the average delivery time?
-- Which payment method is most frequently used?
-- How do discounts affect net sales and profitability?
-- Which regions, categories, products, and customers require further attention?
+- Orders
+- Customers
+- Products
+- Stores
+- Sales
+- Discounts
+- Costs
+- Profit
+- Delivery
+- Ratings
+- Regions
+- States
+- Cities
+- Order Status
 
----
+### Dataset Scope
 
-# 🛠️ Tools & Technologies
+- **5,000 transactions**
+- **1,800 customers**
+- **44 products**
+- **8 categories**
+- **5 regions**
+- **20 states**
+- **Multiple cities**
+- **April 2025 – March 2026**
 
-- **Power BI Desktop**
-- **Power Query**
-- **DAX**
-- **Data Modeling**
-- **Microsoft Excel**
-- **Power BI Service**
-
----
-
-# 🧹 Data Preparation
-
-Power Query and Excel were used to clean, transform, and prepare the business data before creating the dashboard.
-
-### Data Cleaning
-
-- Removed duplicate records
-- Handled blank and inconsistent values
-- Corrected data types
-- Standardized columns
-- Cleaned business data
-- Prepared data for analysis
-
-### Data Transformation
-
-- Merge Queries
-- Append Queries
-- Conditional Columns
-- Custom Columns
-- Group By
-- Replace Values
-- Pivot / Unpivot
-- Data Type Transformation
-
-The prepared dataset was then loaded into Power BI for data modeling, DAX calculations, and visualization.
+> The dataset is used for portfolio and analytical learning purposes.
 
 ---
 
-# 🗃️ Data Model
+# 🧩 Data Model
 
-The project uses a structured Power BI data model containing:
+The Power BI model follows a structured relational approach using multiple business entities.
+
+### Main Tables
 
 - **Orders**
 - **Customers**
 - **Products**
 - **Stores**
-- **Customer Segmentation**
 
-The model supports:
+### Modeling Concepts Used
 
-- Sales Analysis
-- Customer Analysis
-- Product Analysis
-- Regional Analysis
-- Operational Analysis
-- Profitability Analysis
-
-The data model was designed to provide consistent filtering and cross-analysis across multiple business dimensions.
+- Primary Keys
+- Foreign Keys
+- One-to-Many Relationships
+- Fact and Dimension concepts
+- Filter Context
+- Hierarchical Analysis
+- Relationship-Based Analysis
 
 ---
 
-# 📐 DAX & Business Metrics
+# 🔄 Data Preparation
 
-DAX was used to create analytical measures and business KPIs throughout the dashboard.
+Data preparation was performed using **Power Query**.
 
-### Core Metrics
+### Transformation Steps
 
-- Total Sales
-- Net Sales
-- Total Cost
-- Total Profit
-- Total Orders
-- Total Customers
-- Average Order Value
-- Average Rating
-- Average Delivery Time
-- Profit Margin %
-- Discount %
-- Minimum Values
-- Maximum Values
+- Data type correction
+- Data cleaning
+- Missing value handling
+- Data validation
+- Date transformation
+- Column transformation
+- Derived columns
+- Business categorization
+- Data quality checks
 
-### Time Intelligence
+---
 
-- Year-to-Date
-- Month-to-Date
-- Quarter-to-Date
-- Monthly Analysis
-- Year Analysis
-- Quarter Analysis
+# 🧮 DAX & Analytical Calculations
 
-### Advanced Business Analysis
+The dashboard uses DAX measures to calculate business KPIs and analytical metrics.
+
+### DAX Concepts Used
 
 - `CALCULATE`
 - `FILTER`
 - `ALL`
 - `VALUES`
 - `SELECTEDVALUE`
-- `DIVIDE`
 - `RANKX`
-- Target Calculation
-- Achievement %
+- Aggregation Functions
+- Percentage Calculations
+- Contribution Analysis
+- Target Achievement
+- Variance Analysis
+- Profitability Metrics
+
+### Main KPIs
+
+- Total Sales
+- Net Sales
+- Total Profit
+- Profit Margin
+- Average Order Value
+- Order Count
+- Customer Count
+- Customer Contribution
+- Product Ranking
+- Target Achievement
 - Sales Variance
-- Contribution %
-- Top N Analysis
+- Regional Contribution
+- Delivery Performance
 
 ---
 
-# 🎛️ Dashboard Features
+# 🛠️ Tools & Technologies
 
-The dashboard includes:
-
-- Interactive KPI Cards
-- KPI Performance Visuals
-- Slicers and Filters
-- Monthly Trend Analysis
-- Regional Analysis
-- State Analysis
-- City Analysis
-- Customer Analysis
-- Product Analysis
-- Category Analysis
-- Discount Analysis
-- Cost Analysis
-- Profitability Analysis
-- Delivery Analysis
-- Payment Method Analysis
-- Target vs Actual Analysis
-- Achievement %
-- Sales Variance
-- Contribution %
-- Ranking Analysis
-- India State Map
-- Navigation Buttons
-- Reset Buttons
-- Interactive Power BI Visuals
+| Tool / Technology | Usage |
+|---|---|
+| **Power BI** | Dashboard development & visualization |
+| **Power Query** | Data cleaning & transformation |
+| **DAX** | KPI & analytical calculations |
+| **Microsoft Excel** | Data preparation & source data |
+| **Data Modeling** | Relationships & business analysis |
 
 ---
 
-# 🔄 Project Workflow
+# ✨ Dashboard Features
+
+- 📊 Interactive KPI Cards
+- 📈 Sales Trend Analysis
+- 💰 Profitability Analysis
+- 🌎 Regional & Geographic Analysis
+- 👥 Customer Analytics
+- 🛍️ Product & Category Analysis
+- 🚚 Delivery & Operations Analysis
+- 🎯 Target & Achievement Analysis
+- 🏆 Ranking Analysis
+- 🔎 Interactive Slicers
+- 📋 Detailed Tables & Matrices
+- 📌 Executive Business Insights
+- 🔄 Cross-page Filtering
+- 📊 Business Performance Monitoring
+
+---
+
+# 🔍 Analytical Workflow
 
 ```text
 Raw Business Data
         ↓
-Excel / Power Query
+Data Cleaning
         ↓
-Data Cleaning & Transformation
+Power Query Transformation
         ↓
 Data Modeling
         ↓
 DAX Measures
         ↓
-KPI & Visual Development
+KPI Development
         ↓
-Interactive Power BI Dashboard
+Interactive Visualizations
         ↓
-Business Insights
+Business Analysis
         ↓
-Power BI Service
-```
+Executive Insights
 
----
+# 📈 Skills Demonstrated
 
-# ☁️ Power BI Service
+## Data Analytics
 
-The report was published to **Power BI Service** as part of the project deployment workflow.
+- Data Cleaning
+- Data Validation
+- Exploratory Data Analysis
+- KPI Analysis
+- Business Performance Analysis
+- Data Interpretation
 
-The project covers the following Power BI Service concepts:
+## Power BI
 
-- Workspace
-- Report Publishing
-- Semantic Model
-- Data Refresh
-- Scheduled Refresh Concepts
+- Power Query
+- Data Modeling
+- DAX
+- Interactive Visualizations
+- Dashboard Design
+- KPI Development
+- Business Intelligence
 
----
+## Microsoft Excel
 
-# 📁 Project Files
+- Data Preparation
+- Data Management
+- Lookup Concepts
+- Pivot-based Analysis
+- Reporting
 
-| File | Description |
-|---|---|
-| `Instamart Sales Dashboard.pbix` | Power BI dashboard |
-| `Screenshots/01-Executive-Overview.png` | Executive Overview screenshot |
-| `Screenshots/02-Regional-Geographic-Analysis.png` | Regional & Geographic Analysis screenshot |
-| `Screenshots/03-Sales-Revenue-Analysis.png` | Sales & Revenue Analysis screenshot |
-| `Screenshots/04-Customer-Analytics.png` | Customer Analytics screenshot |
-| `Screenshots/05-Customer-Performance.png` | Customer Performance screenshot |
-| `Screenshots/06-Product-Category-Analysis.png` | Product & Category Analysis screenshot |
-| `Screenshots/07-Product-Performance.png` | Product Performance screenshot |
-| `Screenshots/08-Operations-Delivery.png` | Operations & Delivery screenshot |
-| `Screenshots/09-Operations-Performance.png` | Operations Performance screenshot |
-| `Screenshots/10-Profitability-Analysis.png` | Profitability Analysis screenshot |
-| `Screenshots/11-Executive-Business-Insights.png` | Executive Business Insights screenshot |
-| `README.md` | Project documentation |
+## Business Analysis
 
----
-
-# 🚀 How to View
-
-1. Download `Instamart Sales Dashboard.pbix` from this repository.
-2. Open the `.pbix` file using **Power BI Desktop**.
-3. If Power BI asks for the original data source, reconnect the dataset to the corresponding Excel source.
-4. Refresh the data if required.
-5. Explore all **11 interactive dashboard pages**.
+- Regional Analysis
+- Customer Analysis
+- Product Analysis
+- Profitability Analysis
+- Operations Analysis
+- Business Insight Generation
 
 ---
 
 # 🎯 Project Objective
 
-The objective of this project is to transform quick-commerce business data into an interactive Power BI analytics solution that provides actionable insights into:
+The objective of this project is to build a realistic **Business Intelligence solution for a quick-commerce business** that enables analysts and management to:
 
-- Sales
-- Revenue
-- Profitability
-- Customers
-- Products
-- Categories
-- Regional Performance
-- Discounts
-- Costs
-- Delivery Operations
-- Target Achievement
-- Overall Business Performance
-
-The project demonstrates how Power BI can transform raw business data into an interactive decision-support dashboard for management and business analysis.
+- Monitor business performance
+- Track sales and profitability
+- Understand customer behavior
+- Identify top-performing products
+- Compare regional performance
+- Monitor operational efficiency
+- Evaluate delivery performance
+- Identify business opportunities
+- Generate actionable insights from data
 
 ---
 
-# 👤 Author
+# 📚 Learning Outcomes
+
+Through this project, I strengthened my practical understanding of:
+
+- End-to-end Power BI development
+- Power Query data transformation
+- Data modeling
+- DAX measures
+- KPI development
+- Business reporting
+- Customer analytics
+- Product analytics
+- Regional analysis
+- Profitability analysis
+- Operations analytics
+- Business insight generation
+- Interactive dashboard development
+
+---
+
+# 📁 Project Structure
+
+```text
+Instamart-Business-Analytics-Dashboard/
+│
+├── screenshots/
+│   ├── 01-Executive-Overview.png
+│   ├── 02-Regional-Geographic-Analysis.png
+│   ├── 03-Sales-Revenue-Analysis.png
+│   ├── 04-Customer-Analytics.png
+│   ├── 05-Customer-Performance.png
+│   ├── 06-Product-Category-Analysis.png
+│   ├── 07-Product-Performance.png
+│   ├── 08-Operations-Delivery-Analysis.png
+│   ├── 09-Operations-Performance.png
+│   ├── 10-Profitability-Analysis.png
+│   └── 11-Executive-Business-Insights.png
+│
+├── Instamart-Business-Analytics-Dashboard.pbix
+│
+└── README.md
+
+# ⚙️ How to View the Dashboard
+
+### Option 1 — Power BI Desktop
+
+1. Download the `.pbix` file.
+2. Open it using **Microsoft Power BI Desktop**.
+3. Interact with the dashboard pages.
+4. Use slicers and filters to explore the data.
+
+### Option 2 — Screenshots
+
+The `screenshots` folder contains images of all dashboard pages for quick portfolio review without opening Power BI.
+
+---
+
+# 🎯 Business Value
+
+The dashboard transforms raw business data into an interactive analytical solution that can help decision-makers:
+
+- Identify revenue drivers
+- Improve profitability
+- Monitor customer behavior
+- Optimize product performance
+- Compare regional performance
+- Detect operational problems
+- Monitor delivery efficiency
+- Prioritize business improvement opportunities
+
+---
+
+# ⚠️ Disclaimer
+
+This is an **independent academic and portfolio project** created for learning, demonstration, and professional portfolio purposes.
+
+The dataset is **sample/fictional business data** created for analytical practice.
+
+This project is **not affiliated with, sponsored by, endorsed by, or officially connected to Instamart or any related organization**.
+
+---
+
+# 👨‍💻 Author
 
 **Sanjay S**
 
-Aspiring Data Analyst | Power BI | SQL | Excel | Business Analytics
+**Aspiring Data Analyst | Power BI | SQL | Excel | Business Analytics**
 
----
-
-## ⚠️ Disclaimer
-
-This is an independent academic and portfolio project created using sample quick-commerce data. It is **not affiliated with, sponsored by, or officially connected to Instamart**.
+GitHub: **sanjay007-ai**
