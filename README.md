@@ -33,7 +33,7 @@ This project demonstrates an end-to-end **Data Analyst / Business Intelligence w
 
 ## 1️⃣ Executive Overview
 
-![Executive Overview](screenshots/01-Executive-Overview.png)
+![📄Instamart Overview](screenshots/Instamart%20Overview.pdf)
 
 The Executive Overview provides a high-level view of overall business performance using key sales, profitability, customer, order, and operational KPIs.
 
