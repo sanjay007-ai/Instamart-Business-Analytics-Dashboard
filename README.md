@@ -122,6 +122,7 @@ The **Customer Analysis** page focuses on customer activity, purchasing behavior
 This page helps identify valuable customer groups and opportunities to improve customer retention.
 
 [📄 View Customer Analysis PDF](Instamart%20Customer%20Analysis.pdf)
+
 ---
 
 ## 5️⃣ Customer Performance Details
